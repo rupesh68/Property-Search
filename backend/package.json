@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon",
-    "start": "node ",
-     "build": "npm install && npm install --prefix client && npm run build --prefix client"
+    "start": "node "
+     
   
   },
   "keywords": [],
