@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Footer = () => {
   return (
     <>
@@ -22,7 +20,7 @@ export const Footer = () => {
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Features
@@ -30,7 +28,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Customers
@@ -38,7 +36,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Why us?
@@ -46,7 +44,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Pricing
@@ -67,7 +65,7 @@ export const Footer = () => {
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Documentation
@@ -75,7 +73,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Training
@@ -83,7 +81,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       System status
@@ -91,15 +89,15 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
-                      FAQ's
+                      FAQs
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Help Center
@@ -120,7 +118,7 @@ export const Footer = () => {
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       About us
@@ -128,7 +126,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Careers
@@ -136,7 +134,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Leadership
@@ -144,7 +142,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Blog
@@ -152,7 +150,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Events
@@ -173,7 +171,7 @@ export const Footer = () => {
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Contact
@@ -181,7 +179,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Support
@@ -189,7 +187,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Partners
@@ -197,7 +195,7 @@ export const Footer = () => {
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500 focus:text-zinc-600"
                     >
                       Join research
@@ -225,7 +223,7 @@ export const Footer = () => {
                 <ul className="flex items-center justify-end gap-4">
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500"
                     >
                       <svg
@@ -253,7 +251,7 @@ export const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500"
                     >
                       <svg
@@ -279,7 +277,7 @@ export const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="javascript:void(0)"
+                      href="#"
                       className="transition-colors duration-300 hover:text-zinc-500"
                     >
                       <svg

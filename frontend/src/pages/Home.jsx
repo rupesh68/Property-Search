@@ -68,7 +68,7 @@ export default function Home() {
   return (
     <>
       {/* top */}
-     
+
       <section className="text-gray-400 bg-zinc-900 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -170,8 +170,8 @@ export default function Home() {
         </div>
       </section>
 
-     {/* swiper */}
-       {/* <Swiper navigation>
+      {/* swiper */}
+      {/* <Swiper navigation>
         {offerListings &&
           offerListings.length > 0 &&
           offerListings.map((listing) => (
@@ -186,32 +186,88 @@ export default function Home() {
             </SwiperSlide>
           ))}
       </Swiper>  */}
-      <section className="max-w-6xl bg-zinc-900 mx-auto p-3 flex flex-col gap-8 my-10">
-     
-        
+      <section className="max-w-full h-[80vh] mx-auto ">
+        <div className="relative w-full glide-01">
+          {/*    <!-- Slides --> */}
+          <div className="overflow-hidden" data-glide-el="track">
+            <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
+              <li>
+                <img
+                  src="https://images.pexels.com/photos/259646/pexels-photo-259646.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  className="w-full h-[80vh]"
+                />
+              </li>
+              <li>
+                <img
+                  src="https://images.pexels.com/photos/259646/pexels-photo-259646.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  className="w-full h-[80vh] object-cover"
+                />
+              </li>
+
+              <li>
+                <img
+                  src="https://images.pexels.com/photos/259646/pexels-photo-259646.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  className="w-full h-[80vh]"
+                />
+              </li>
+              <li>
+                <img
+                  src="https://images.pexels.com/photos/259646/pexels-photo-259646.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  className="w-full h-[80vh]"
+                />
+              </li>
+            </ul>
+          </div>
+          {/*    <!-- Controls --> */}
+          <div
+            className="absolute left-0 flex items-center justify-between w-full h-0 px-4 top-1/2 "
+            data-glide-el="controls"
+          >
+            <button
+              className="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full border-slate-700 bg-white/20 text-white hover:border-slate-900 hover:text-slate-900 focus-visible:outline-none lg:h-12 lg:w-12"
+              data-glide-dir="<"
+              aria-label="prev slide"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-5 h-5"
+              >
+                <title>prev slide</title>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18"
+                />
+              </svg>
+            </button>
+            <button
+              className="inline-flex items-center justify-center w-8 h-8 transition duration-300 border rounded-full border-slate-700 bg-white/20 text-white hover:border-slate-900 hover:text-slate-900 focus-visible:outline-none lg:h-12 lg:w-12"
+              data-glide-dir=">"
+              aria-label="next slide"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-5 h-5"
+              >
+                <title>next slide</title>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
       </section>
-      
-       
-         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       {/* listing results for offer, sale and rent */}
 
@@ -219,11 +275,11 @@ export default function Home() {
         {offerListings && offerListings.length > 0 && (
           <div className="">
             <div className="my-3">
-              <h2 className="text-2xl font-semibold text-slate-600">
+              <h2 className="text-2xl font-semibold text-slate-300">
                 Recent offers
               </h2>
               <Link
-                className="text-sm text-blue-800 hover:underline"
+                className="text-sm text-blue-400 hover:underline"
                 to={"/search?offer=true"}
               >
                 Show more offers
@@ -239,11 +295,11 @@ export default function Home() {
         {rentListings && rentListings.length > 0 && (
           <div className="">
             <div className="my-3">
-              <h2 className="text-2xl font-semibold text-slate-600">
+              <h2 className="text-2xl font-semibold text-slate-300">
                 Recent places for rent
               </h2>
               <Link
-                className="text-sm text-blue-800 hover:underline"
+                className="text-sm text-blue-400 hover:underline"
                 to={"/search?type=rent"}
               >
                 Show more places for rent
@@ -259,11 +315,11 @@ export default function Home() {
         {saleListings && saleListings.length > 0 && (
           <div className="">
             <div className="my-3">
-              <h2 className="text-2xl font-semibold text-slate-600">
+              <h2 className="text-2xl font-semibold text-slate-300">
                 Recent places for sale
               </h2>
               <Link
-                className="text-sm text-blue-800 hover:underline"
+                className="text-sm text-blue-400 hover:underline"
                 to={"/search?type=sale"}
               >
                 Show more places for sale

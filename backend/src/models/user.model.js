@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema(
   {
@@ -16,14 +16,14 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    avatar:{
+    avatar: {
       type: String,
-      default: "https://i.ibb.co/4pDNDk1/avatar.png"
+      default: "https://i.ibb.co/4pDNDk1/avatar.png",
     },
   },
   { timestamps: true }
 );
 
-const User = mongoose.model('User', userSchema);
+const User = mongoose.model("User", userSchema);
 
 export default User;

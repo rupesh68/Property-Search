@@ -1,4 +1,3 @@
-import React from "react";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ListingItem from "../components/ListingItem";
@@ -139,7 +138,7 @@ export default function Search() {
               type="text"
               id="searchTerm"
               placeholder="Search..."
-              className="border rounded-lg p-3 w-full "
+              className="border rounded-lg p-3 w-full text-black"
               value={sidebardata.searchTerm}
               onChange={handleChange}
             />
@@ -210,8 +209,8 @@ export default function Search() {
               <span>Furnished</span>
             </div>
           </div>
-          <div className="flex items-center gap-2">
-            <label className="font-semibold">Sort:</label>
+          <div className="flex items-center gap-2 text-black">
+            <label className="font-semibold text-white">Sort:</label>
             <select
               onChange={handleChange}
               defaultValue={"created_at_desc"}
@@ -224,14 +223,14 @@ export default function Search() {
               <option value="createdAt_asc">Oldest</option>
             </select>
           </div>
-          <button className="bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95">
+          <button className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             Search
           </button>
         </form>
       </div>
 
       <div className="flex-1">
-        <h1 className="text-3xl font-semibold border-b p-3 text-slate-700 mt-5">
+        <h1 className="text-3xl font-semibold border-b p-3 text-slate-400 mt-5">
           Listing results:
         </h1>
         <div className="p-7 flex flex-wrap gap-4">

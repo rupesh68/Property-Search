@@ -1,10 +1,6 @@
-import React from "react";
-
 export default function About() {
   return (
     <>
-      
-
       <div className="bg-zinc-900 text-white">
         <ul
           aria-label="Nested user feed"
@@ -221,7 +217,6 @@ export default function About() {
           </li>
         </ul>
       </div>
-      {/*<!-- End Nested user feed --> */}
     </>
   );
 }
