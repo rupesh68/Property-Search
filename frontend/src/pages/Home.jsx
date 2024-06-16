@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Swiper, SwiperSlide } from "swiper/react";
+
 import { Navigation } from "swiper/modules";
 import SwiperCore from "swiper";
 import "swiper/css/bundle";
@@ -67,21 +67,18 @@ export default function Home() {
   }, []);
   return (
     <>
-      {/* top */}
+     
 
       <section className="text-gray-400 bg-zinc-900 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-              Before they sold out
+            Don’t wait to buy real estate. Buy real estate and wait.
               <br className="hidden lg:inline-block" />
-              readymade gluten
+              Will Rogers
             </h1>
             <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            Real estate is a long-term game. Dont try to get rich quick. Instead, focus on buying properties that will generate income and appreciate over time. - Warren Buffett, business magnate
             </p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
@@ -170,22 +167,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* swiper */}
-      {/* <Swiper navigation>
-        {offerListings &&
-          offerListings.length > 0 &&
-          offerListings.map((listing) => (
-            <SwiperSlide key={listing}>
-              <div
-                style={{
-                  background: `url(${listing.imageUrls[0]}) center no-repeat`,
-                  backgroundSize: "cover",
-                }}
-                className="h-[500px]"
-              ></div>
-            </SwiperSlide>
-          ))}
-      </Swiper>  */}
+     
       <section className="max-w-full h-[80vh] mx-auto ">
         <div className="relative w-full glide-01">
           {/*    <!-- Slides --> */}
@@ -269,7 +251,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* listing results for offer, sale and rent */}
+     
 
       <div className="max-w-6xl bg-zinc-900 mx-auto p-3 flex flex-col gap-8 my-10">
         {offerListings && offerListings.length > 0 && (
