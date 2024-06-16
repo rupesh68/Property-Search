@@ -194,7 +194,7 @@ export default function Home() {
               <li>
                 <img
                   src="https://images.pexels.com/photos/259646/pexels-photo-259646.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  className="w-full h-[80vh]"
+                  className="w-full h-[80vh] object-cover"
                 />
               </li>
               <li>
@@ -207,13 +207,13 @@ export default function Home() {
               <li>
                 <img
                   src="https://images.pexels.com/photos/259646/pexels-photo-259646.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  className="w-full h-[80vh]"
+                  className="w-full h-[80vh] object-cover"
                 />
               </li>
               <li>
                 <img
                   src="https://images.pexels.com/photos/259646/pexels-photo-259646.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  className="w-full h-[80vh]"
+                  className="w-full h-[80vh] object-cover"
                 />
               </li>
             </ul>
