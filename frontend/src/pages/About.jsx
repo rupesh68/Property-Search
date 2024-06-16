@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <>
-      {/*<!-- Component: Nested user feed --> */}
+      
 
       <div className="bg-zinc-900 text-white">
         <ul
